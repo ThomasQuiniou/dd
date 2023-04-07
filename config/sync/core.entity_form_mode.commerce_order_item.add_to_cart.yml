@@ -1,0 +1,15 @@
+uuid: 6604638b-fa8f-4f72-90d6-8a45c87fcab3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_order
+  enforced:
+    module:
+      - commerce_cart
+_core:
+  default_config_hash: BeqBf6Mm59Nebv4SsV0yvK5EspkCegPqvwnqwEBvEp0
+id: commerce_order_item.add_to_cart
+label: 'Ajouter au panier'
+targetEntityType: commerce_order_item
+cache: true

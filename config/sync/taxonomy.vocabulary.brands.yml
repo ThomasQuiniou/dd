@@ -1,0 +1,10 @@
+uuid: da65333b-db49-4d8c-a980-b3c2a607b922
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dCWKvMiiLfQLJ7GqLzkk86TfGzs1bgTvRwATuh2WJR0
+name: Marques
+vid: brands
+description: ''
+weight: 0

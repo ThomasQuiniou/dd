@@ -1,0 +1,10 @@
+uuid: 4a48c89c-0ede-4095-b064-70083c9d540c
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sKyDNaF8plhgR7pH9Xz_08N1UaiHwrR3g_h6K1jzn0A
+name: Catégories
+vid: product_categories
+description: ''
+weight: 0

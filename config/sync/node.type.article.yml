@@ -1,0 +1,13 @@
+uuid: 9073ace3-edde-443d-af90-d63391bb9363
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: i4OVV5qrD7abstl4SKS8v5Ee7PuxrL548iZVSty1HRg
+name: Article
+type: article
+description: 'Utilisez les <em>articles</em> pour des contenus possédant une temporalité tels que des actualités, des communiqués de presse ou des billets de blog.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

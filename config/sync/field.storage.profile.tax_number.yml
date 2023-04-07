@@ -1,0 +1,24 @@
+uuid: 15b1e47c-439d-49a7-b7e3-96d1a1d0b9f4
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_tax
+    - profile
+  enforced:
+    module:
+      - commerce_tax
+_core:
+  default_config_hash: hrW9rW3rrusosIs_U2I_GY_pEL1hwdaG5BSizWnl2I4
+id: profile.tax_number
+field_name: tax_number
+entity_type: profile
+type: commerce_tax_number
+settings: {  }
+module: commerce_tax
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

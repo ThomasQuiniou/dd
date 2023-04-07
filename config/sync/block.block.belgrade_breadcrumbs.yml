@@ -1,0 +1,25 @@
+uuid: f618a4e4-edc0-4dd9-a83f-c45594bebe3f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - belgrade
+id: belgrade_breadcrumbs
+theme: belgrade
+region: highlighted
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/checkout\r\n/checkout/*"

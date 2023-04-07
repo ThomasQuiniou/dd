@@ -1,0 +1,10 @@
+uuid: 7a3642c8-4f67-4c07-8af0-98fd7653c58f
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 5KeAEqEg3nwQ8oWhuadMscdtsLnT8QdRlWo9JFQrhdk
+id: catalog
+label: Catalog
+description: ''
+locked: false

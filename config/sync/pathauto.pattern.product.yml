@@ -1,0 +1,16 @@
+uuid: e603dddf-3aac-4da1-a595-6531cb67cfc5
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: fHIgcbjtMfNHiwKWxaW3Q_nOVKcHchHO4mt7oiNXceo
+id: product
+label: Produit
+type: 'canonical_entities:commerce_product'
+pattern: 'product/[commerce_product:title]'
+selection_criteria: {  }
+selection_logic: and
+weight: 0
+relationships: {  }

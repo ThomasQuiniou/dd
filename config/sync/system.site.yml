@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: l58O_yEXSo-SeJi19LXdzTU1tNJG3lmnIhCitRkM1tk
+langcode: fr
+uuid: 1e2f1332-d06c-4164-884d-7a14d7e9b48f
+name: 'DD Longbeach'
+mail: tq.formationnumerique@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /frontpage
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: fr

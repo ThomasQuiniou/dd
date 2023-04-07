@@ -1,0 +1,16 @@
+uuid: 1130f66c-ae7b-48a4-ab5a-691dede80ff6
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+  enforced:
+    module:
+      - commerce_product
+_core:
+  default_config_hash: OHXQpgNjqh0nG6rRmaprOm94zIX-wAmSu3TlY2JBn54
+id: commerce_product_delete_action
+label: 'Supprimer un produit'
+type: commerce_product
+plugin: 'entity:delete_action:commerce_product'
+configuration: {  }

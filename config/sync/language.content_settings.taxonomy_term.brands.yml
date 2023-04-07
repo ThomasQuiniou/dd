@@ -1,0 +1,11 @@
+uuid: 816dd8b6-b70a-45e7-a71e-7d29ef91911d
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.brands
+id: taxonomy_term.brands
+target_entity_type_id: taxonomy_term
+target_bundle: brands
+default_langcode: site_default
+language_alterable: false

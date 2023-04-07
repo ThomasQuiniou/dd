@@ -1,0 +1,22 @@
+uuid: 90e4e1db-85b2-4b9e-9fbd-8f0166e7cc1f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - taxonomy
+_core:
+  default_config_hash: VofTM_wll5EKwxH0ddaOO-_hahJLLTWgStuiObqo9S8
+id: commerce_product.field_brand
+field_name: field_brand
+entity_type: commerce_product
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

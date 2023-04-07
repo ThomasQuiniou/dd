@@ -1,0 +1,10 @@
+uuid: 9c0666bd-b2f6-4613-a949-14abe2cc78aa
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: S7k_JqXLLyjWl9uZ95iSgvlb145gUJ9h22yEeuHK4mA
+name: Autres
+vid: special_categories
+description: ''
+weight: 0

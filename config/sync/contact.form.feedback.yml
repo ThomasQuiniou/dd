@@ -1,0 +1,14 @@
+uuid: ee31e847-2e2c-40c5-b27e-fbb17312e8f6
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Retours utilisateurs sur le site web'
+recipients:
+  - tq.formationnumerique@gmail.com
+reply: ''
+weight: 0
+message: null
+redirect: null

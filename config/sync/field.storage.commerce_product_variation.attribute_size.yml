@@ -1,0 +1,21 @@
+uuid: 9afbf32a-d0b3-4053-ad83-e56ff5c8112e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_product
+_core:
+  default_config_hash: STHt0VOM82iTO-oZIqjGbNef_swIQOnzxp31vo7qfXE
+id: commerce_product_variation.attribute_size
+field_name: attribute_size
+entity_type: commerce_product_variation
+type: entity_reference
+settings:
+  target_type: commerce_product_attribute_value
+module: core
+locked: false
+cardinality: 1
+translatable: false
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

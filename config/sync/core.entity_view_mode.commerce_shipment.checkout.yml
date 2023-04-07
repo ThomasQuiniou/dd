@@ -1,0 +1,12 @@
+uuid: ab3c35dc-424c-4381-abab-36e6f69a5962
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_shipping
+_core:
+  default_config_hash: SOM4LMI0fFeahHJLPEPoVldiWGePCGwhTERi0cTjb0U
+id: commerce_shipment.checkout
+label: 'Passer la commande'
+targetEntityType: commerce_shipment
+cache: true

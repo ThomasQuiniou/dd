@@ -1,0 +1,15 @@
+uuid: 69344497-d863-48e1-a110-9f97781aeb88
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: YhOM0jcATwJkv-haxTHjYz_S2grlzmTfC64NUyMhhNI
+id: clothing
+label: Clothing
+traits: {  }
+locked: false
+description: ''
+variationType: clothing
+variationTypes: {  }
+multipleVariations: true
+injectVariationFields: true

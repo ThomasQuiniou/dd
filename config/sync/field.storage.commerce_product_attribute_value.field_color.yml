@@ -1,0 +1,22 @@
+uuid: 78fa8a51-90cc-4bda-961b-dc3dc578ca15
+langcode: fr
+status: true
+dependencies:
+  module:
+    - color_field
+    - commerce_product
+_core:
+  default_config_hash: 9WIfJQfH9bwnGspglE5MCcyxrkHKLhWINitLiF3SFvw
+id: commerce_product_attribute_value.field_color
+field_name: field_color
+entity_type: commerce_product_attribute_value
+type: color_field_type
+settings:
+  format: '#HEXHEX'
+module: color_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

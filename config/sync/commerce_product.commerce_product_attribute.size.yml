@@ -1,0 +1,9 @@
+uuid: 96bf785f-fbf4-4b55-b85a-a7d2ae2f7fb6
+langcode: fr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 30WJOLQaq2rsyKLsjNWWE7NpT0kIZS2eBqeCyqs5btY
+id: size
+label: Taille
+elementType: select
