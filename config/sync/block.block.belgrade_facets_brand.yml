@@ -17,7 +17,7 @@ provider: null
 plugin: 'facet_block:brand'
 settings:
   id: 'facet_block:brand'
-  label: Brand
+  label: Marques
   label_display: visible
   provider: facets
 visibility:

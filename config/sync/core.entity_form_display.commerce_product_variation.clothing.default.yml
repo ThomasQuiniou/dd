@@ -12,7 +12,6 @@ dependencies:
   module:
     - commerce_price
     - image
-    - physical
 _core:
   default_config_hash: zcT-AiaiOdo1gl0NHlf7tpljJ0vnrYNlAMRpIjFOIWI
 id: commerce_product_variation.clothing.default
@@ -22,13 +21,13 @@ mode: default
 content:
   attribute_color:
     type: options_select
-    weight: 3
+    weight: 4
     region: content
     settings: {  }
     third_party_settings: {  }
   attribute_size:
     type: options_select
-    weight: 4
+    weight: 5
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -55,7 +54,7 @@ content:
     third_party_settings: {  }
   price:
     type: commerce_price_default
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -74,14 +73,7 @@ content:
     settings:
       display_label: true
     third_party_settings: {  }
-  weight:
-    type: physical_measurement_default
-    weight: 5
-    region: content
-    settings:
-      default_unit: ''
-      allow_unit_change: true
-    third_party_settings: {  }
 hidden:
   created: true
   uid: true
+  weight: true

@@ -17,7 +17,7 @@ provider: null
 plugin: 'facet_block:special_categories'
 settings:
   id: 'facet_block:special_categories'
-  label: 'Special categories'
+  label: Autres
   label_display: visible
   provider: facets
 visibility:

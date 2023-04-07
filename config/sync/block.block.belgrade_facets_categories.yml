@@ -17,7 +17,7 @@ provider: null
 plugin: 'facet_block:product_categories'
 settings:
   id: 'facet_block:product_categories'
-  label: Categories
+  label: Catégories
   label_display: visible
   provider: facets
 visibility:

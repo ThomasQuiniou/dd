@@ -1,0 +1,9 @@
+uuid: c05c0c56-6666-49d4-a2b8-249ad7d15491
+langcode: fr
+status: true
+dependencies: {  }
+currencyCode: EUR
+name: euro
+numericCode: '978'
+symbol: €
+fractionDigits: 2

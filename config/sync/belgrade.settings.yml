@@ -23,4 +23,24 @@ schemas:
   bootstrap: 8000
   commerce_bootstrap: 8000
   belgrade: 8000
-breadcrumb_title: false
+breadcrumb_title: 0
+table_responsive: '-1'
+region_wells:
+  navigation: ''
+  top_navigation: ''
+  header: ''
+  highlighted: ''
+  help: ''
+  content: ''
+  sidebar_first: ''
+  sidebar_second: well
+  footer: ''
+cdn_theme: ''
+cdn_cache_ttl_versions: 0
+cdn_cache_ttl_themes: 0
+cdn_cache_ttl_assets: 0
+cdn_cache_ttl_library: 0
+reset: 'Reset Brisé Cache'
+apply: Appliquer
+reset_http_request_cache: ''
+table: ''
