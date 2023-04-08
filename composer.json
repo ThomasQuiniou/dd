@@ -42,6 +42,7 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core": "^9.0",
         "drupal/core-composer-scaffold": "^9.0",
+        "drupal/symfony_mailer": "^1.2",
         "drupalcommerce/demo_commerce": "dev-master",
         "drush/drush": "^9.7.1 | ^10.0.0",
         "oomphinc/composer-installers-extender": "^2.0",
