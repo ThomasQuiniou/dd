@@ -1,0 +1,5 @@
+name: DD Country Limit
+type: module
+description: 'Restraint la liste des pays pour la livraison.'
+package: DD
+core_version_requirement: ^9.0 || ^10
