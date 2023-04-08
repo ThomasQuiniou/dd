@@ -1,0 +1,22 @@
+uuid: 86f6a175-f3b8-4f40-8d21-1442b211fcf8
+langcode: fr
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: gKtOcSQTQki2pujw1HB5crJu7WlQmuPbl9cMqPDeWtA
+id: ddlongbeach_help
+theme: ddlongbeach
+region: content
+weight: -8
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Aide
+  label_display: '0'
+  provider: help
+visibility: {  }

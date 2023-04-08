@@ -1,0 +1,27 @@
+uuid: 8cbec687-8492-4bc7-a962-c766f0a4afef
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: nI9USQjCYio-S2yKUK3OfHTG92pwjXbHdzhKKeAWaAY
+id: ddlongbeach_footer
+theme: ddlongbeach
+region: footer
+weight: -5
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Menu Pied de page'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

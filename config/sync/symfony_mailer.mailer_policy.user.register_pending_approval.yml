@@ -1,0 +1,16 @@
+uuid: fd259d59-18fe-4820-a72e-d5f8930ea33e
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: gdjGWtW1jFD4Z2y7UovfbpF3m3ln7By0xqRc0_6U9Qc
+id: user.register_pending_approval
+configuration:
+  email_subject:
+    value: 'Account details for [user:display-name] at [site:name] (pending admin approval)'
+  email_body:
+    content:
+      value: "[user:display-name],\r\n\r\nNous vous remercions pour votre demande d'inscription sur [site:name]. Votre demande est actuellement en cours de validation. Une fois la validation faite, vous recevrez un autre courriel de confirmation contenant les informations vous permettant de vous connecter, choisir votre mot de passe ainsi que d'autres détails.\r\n\r\n\r\n--  L'équipe de [site:name]"
+      format: plain_text

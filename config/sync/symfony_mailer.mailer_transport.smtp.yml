@@ -1,0 +1,18 @@
+uuid: a4bffca5-2a56-4c95-91b1-5ac92c42e4a0
+langcode: fr
+status: true
+dependencies: {  }
+id: smtp
+label: SMTP
+plugin: smtp
+configuration:
+  user: ddlongbeachcommerce@gmail.com
+  pass: lynddytmmlorxvie
+  host: smtp.gmail.com
+  port: 587
+  query:
+    verify_peer: true
+    local_domain: ''
+    restart_threshold: null
+    restart_threshold_sleep: null
+    ping_threshold: null

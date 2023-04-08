@@ -1,0 +1,18 @@
+uuid: 9e2437fb-e2dc-40b0-8ff6-9e3683215399
+langcode: fr
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: UHTbwGbdSCyX2ahr4mXkeXx7pv_RPytuoDSLaPtk1is
+id: user.status_canceled
+configuration:
+  email_subject:
+    value: 'Account details for [user:display-name] at [site:name] (canceled)'
+  email_body:
+    content:
+      value: "[user:display-name],\r\n\r\nVotre compte sur [site:name] a été annulé.\r\n\r\n--  L'équipe de [site:name]"
+      format: plain_text
+  email_skip_sending:
+    message: 'Notification disabled in settings'

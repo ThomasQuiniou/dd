@@ -1,0 +1,27 @@
+uuid: 67ba84df-6b42-4e81-9e7a-17eeba1a06aa
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.social
+  module:
+    - system
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: CB3dmNJAl-l-FXg6eF2UXlZ6w5eYVZGiw3MGVvJ5V-E
+id: ddlongbeach_social
+theme: ddlongbeach
+region: footer
+weight: -4
+provider: null
+plugin: 'system_menu_block:social'
+settings:
+  id: 'system_menu_block:social'
+  label: Social
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: c366a7bf-faa5-41d0-a5e3-6030ac9d4132
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: uxiZlSldLtoOp05pfXeKJxxtvB0ckxx3mAAabJdAJnU
+id: ddlongbeach_messages
+theme: ddlongbeach
+region: highlighted
+weight: -8
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

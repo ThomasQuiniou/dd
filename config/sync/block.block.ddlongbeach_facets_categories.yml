@@ -1,0 +1,28 @@
+uuid: 381b2302-ba2f-471a-91dc-70063b3febcb
+langcode: fr
+status: true
+dependencies:
+  config:
+    - facets.facet.product_categories
+  module:
+    - facets
+    - system
+  theme:
+    - ddlongbeach
+id: ddlongbeach_facets_categories
+theme: ddlongbeach
+region: sidebar_first
+weight: 1
+provider: null
+plugin: 'facet_block:product_categories'
+settings:
+  id: 'facet_block:product_categories'
+  label: Catégories
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

@@ -1,0 +1,22 @@
+uuid: f1608dbc-da98-4d1d-bc74-aa8380d4c9e3
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: z0llL779cPFRJ5myqA63dPOl35O7K1lx6wP5omHTi8U
+id: ddlongbeach_powered
+theme: ddlongbeach
+region: footer
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

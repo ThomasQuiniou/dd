@@ -1,0 +1,23 @@
+uuid: 018de0ef-c68d-4047-add7-b120e4dc86dd
+langcode: fr
+status: true
+dependencies:
+  module:
+    - commerce_cart_flyout
+  theme:
+    - ddlongbeach
+id: ddlongbeach_shopping_cart
+theme: ddlongbeach
+region: top_navigation
+weight: -5
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: 'Shopping Cart'
+  label_display: '0'
+  provider: commerce_cart
+  dropdown: true
+  use_quantity_count: false
+  item_text: items
+visibility: {  }

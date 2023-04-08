@@ -1,0 +1,20 @@
+uuid: 28a26f2f-499f-4416-8541-69cd19b53159
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: EAlCAHiVy5x3aTOW2K9XaWE4kelyfSSSKv8_uiomGJM
+id: ddlongbeach_local_actions
+theme: ddlongbeach
+region: content
+weight: -8
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

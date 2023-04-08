@@ -1,0 +1,28 @@
+uuid: cb5b0428-1c30-4e03-804c-3e236b18da90
+langcode: fr
+status: true
+dependencies:
+  config:
+    - facets.facet.brand
+  module:
+    - facets
+    - system
+  theme:
+    - ddlongbeach
+id: ddlongbeach_facets_brand
+theme: ddlongbeach
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'facet_block:brand'
+settings:
+  id: 'facet_block:brand'
+  label: Marques
+  label_display: visible
+  provider: facets
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: "/products\r\n/products/*"

@@ -1,0 +1,25 @@
+uuid: 225b0bb6-8557-46b6-9db0-a87b4bd841d0
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - ddlongbeach
+id: ddlongbeach_breadcrumbs
+theme: ddlongbeach
+region: highlighted
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    context_mapping: {  }
+    pages: "/checkout\r\n/checkout/*"

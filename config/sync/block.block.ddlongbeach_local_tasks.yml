@@ -1,0 +1,22 @@
+uuid: 720decd4-6777-413d-9906-334f61f722a3
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - ddlongbeach
+_core:
+  default_config_hash: rmiFUWInr28Z1v9rk-oycl_G9hlS7PzBvKbih2qIEuM
+id: ddlongbeach_local_tasks
+theme: ddlongbeach
+region: content
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Onglets
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

@@ -1,0 +1,13 @@
+uuid: b7a65b18-8c4b-46c3-9d1c-4beba64c0f37
+langcode: fr
+status: true
+dependencies:
+  config:
+    - contact.form.feedback
+id: contact_form.mail.feedback
+configuration:
+  email_to:
+    addresses:
+      -
+        value: '<site>'
+        display: ''

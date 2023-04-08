@@ -1,0 +1,25 @@
+uuid: 576c8aff-b2b0-4d7b-805e-30b6c7bbfe8c
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.catalog
+  module:
+    - system
+  theme:
+    - ddlongbeach
+id: ddlongbeach_catalog_menu
+theme: ddlongbeach
+region: header
+weight: -8
+provider: null
+plugin: 'system_menu_block:catalog'
+settings:
+  id: catalog_menu
+  label: 'Catalog menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
