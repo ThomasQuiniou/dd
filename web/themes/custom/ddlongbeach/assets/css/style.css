@@ -1,0 +1,143 @@
+h1.page-header{
+  display: none
+}
+.region-header > .container{
+  align-items: center;
+}
+.commerce-product__contents .price{
+  display: flex;
+}
+.commerce-product__contents .original-price ~ .final-price{
+  color: green;
+  padding-left: 1rem;
+}
+
+.ratings-btn-save-container{
+  display: flex;
+  justify-content: flex-end;
+}
+.ratings-btn-save{
+  margin-left: 1rem;
+}
+.commerce-product--full .form-submit.btn-success.btn{
+  background-color: black;
+  border-color: black;
+}
+.commerce-product--full .form-submit.btn-success.btn:hover,
+.commerce-product--full .form-submit.btn-success.btn:active,
+.commerce-product--full .form-submit.btn-success.btn:focus,
+.commerce-product--full .form-submit.btn-success.btn:active:focus{
+  background-color: white;
+  color: black;
+}
+.testimonial{
+  background-image: url("../images/img-niro.jpg");
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+.row.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.article-catalog article{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
+.article-catalog article .commerce-product--catalog__info{
+  margin-bottom: 2rem;
+}
+
+.glyph.glyph-instagram.glyph__circled{
+  background-image: url("../images/instagram.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 720px){
+  .commerce-product--full .field--name-price, .commerce-product--full .field--name-title{
+    font-size: 3.2rem;
+  }
+  button.js-form-submit.form-submit.btn-info.btn.icon-before,
+  button.js-form-submit.form-submit.btn-default.btn{
+    margin-top: 1rem;
+    width: 100%;
+  }
+  #edit-actions-next{
+    font-size: 2.4vw;
+    width: 100%;
+  }
+}
+@media (min-width: 540px){
+  .ratings-radios #edit-dd-form-checkout-custom-ratings-rating{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: baseline;
+  }
+}
+
+.footer--contents h2 {
+  display: none;
+}
+.menu.menu-social.list-unstyled{
+  display: flex;
+}
+
+.region-navigation .menu a[data-drupal-link-system-path="<front>"]{
+  background: none;
+}
+
+@media (min-width: 540px){
+  .bandeau-qualite .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 990px){
+  .bandeau-qualite .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.bandeau-qualite{
+  background-color: var(--dark);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bandeau-qualite-item img{
+  margin-bottom: 1rem;
+  height: 5rem;
+  width: auto;
+}
+.bandeau-qualite-item{
+  text-align: center;
+  padding: 1rem;
+  color:white;
+}
+.bandeau-qualite-title{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bandeau-qualite-item a{
+  color:white;
+}
+.bandeau-qualite-item a:hover,
+.bandeau-qualite-item a:focus
+{
+  color:white;
+}
+.bandeau-qualite-item p{
+  margin-top: 1rem
+}
+.bandeau-qualite .container::before{
+  content: none;
+}

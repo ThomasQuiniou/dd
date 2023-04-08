@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Theme override for system blocks.
+ *
+ * @ingroup templates
+ */
+#}
+
+{%
+  set classes = [
+    'block',
+    'block-' ~ configuration.provider|clean_class,
+    'block-' ~ plugin_id|clean_class,
+    'clearfix',
+  ]
+%}
+<section{{ attributes.addClass(classes) }}>
+  {% block content %}
+    <p>PROPULSE PAR T QUINIOU</p>
+  {% endblock %}
+</section>
