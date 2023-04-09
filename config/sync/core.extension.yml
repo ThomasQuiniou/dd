@@ -35,6 +35,8 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  dd_country_limit: 0
+  dd_form_checkout: 0
   dynamic_page_cache: 0
   editor: 0
   entity: 0
