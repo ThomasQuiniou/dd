@@ -12,6 +12,7 @@ dependencies:
     - commerce_product
     - contact
     - filter
+    - media
     - shortcut
     - system
 _core:
@@ -31,4 +32,5 @@ permissions:
   - 'skip comment approval'
   - 'use text format basic_html'
   - 'view commerce_product'
+  - 'view media'
   - 'view own commerce_order'
