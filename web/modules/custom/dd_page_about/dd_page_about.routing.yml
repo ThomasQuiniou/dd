@@ -1,0 +1,7 @@
+dd_page_about.content:
+  path: "/a_propos"
+  defaults:
+    _controller: '\Drupal\dd_page_about\Controller\AboutController::content'
+    _title: "À propos"
+  requirements:
+    _permission: "access content"

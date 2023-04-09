@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+
+function dd_page_about_theme($existing, $type, $theme, $path){
+  return [
+    "dd_page_about_theme_hook" => [
+      "template" => "dd-page-about-theme-hook",
+      "path" => $path . "/templates",
+      "variables" => [
+        "data" => ""
+      ],
+      "#attached" => [
+        "library" => [
+          "dd_page_about/dd_page_about"
+        ]
+      ]
+    ]
+  ];
+}

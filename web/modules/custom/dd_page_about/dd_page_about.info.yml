@@ -1,0 +1,5 @@
+name: DD Page About
+type: module
+description: 'Page custom pour la section à propos de la marque.'
+package: DD
+core_version_requirement: ^9.0 || ^10

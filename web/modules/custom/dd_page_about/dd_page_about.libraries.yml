@@ -1,0 +1,5 @@
+dd_page_about:
+  version: 1.x
+  css:
+    theme:
+      css/dd-page-about.css: {}

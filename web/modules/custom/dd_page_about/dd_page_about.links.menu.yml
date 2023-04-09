@@ -1,0 +1,6 @@
+dd_page_about.content:
+  title: "Histoire de la marque"
+  description: "Page à propos de la marque"
+  parent: main
+  menu_name: main
+  route_name: dd_page_about.content
