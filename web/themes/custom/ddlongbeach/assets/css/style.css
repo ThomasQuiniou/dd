@@ -1,6 +1,14 @@
 h1.page-header{
   display: none
 }
+.region-header .logo img{
+  height: 15rem;
+}
+@media screen and (min-width: 768px){
+  .region-header {
+    padding: 30px 0 25px 0;
+  }
+}
 .region-header > .container{
   align-items: center;
 }
@@ -32,8 +40,6 @@ h1.page-header{
 }
 .testimonial{
   background-image: url("../images/img-niro.jpg");
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
 }
 .row.row-eq-height {
   display: -webkit-box;
@@ -107,8 +113,11 @@ h1.page-header{
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.powered-by-quiniou{
+  padding-top: 8px;
+}
 .bandeau-qualite{
-  background-color: var(--dark);
+  background-color: var(--textColor);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
