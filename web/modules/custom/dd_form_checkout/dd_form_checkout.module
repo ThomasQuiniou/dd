@@ -1,0 +1,20 @@
+<?php
+
+use Drupal\commerce_order\Entity\Order;
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_commerce_checkout_pane_info_alter().
+ */
+function dd_form_checkout_commerce_checkout_pane_info_alter(&$definitions) {
+  if (isset($definitions['payment_information'])) {
+    $definitions['payment_information']['class'] = \Drupal\dd_form_checkout\Plugin\Commerce\CheckoutPane\PaymentInformation::class;
+    $definitions['payment_information']['provider'] = 'dd_form_checkout';
+  }
+}
+
+function dd_form_checkout_theme_suggestions_alter(array &$suggestions, array $variables, $hook) {
+    if ($hook == 'commerce_order') {
+        $suggestions[] = 'commerce_order__admin__custom';
+    }
+}

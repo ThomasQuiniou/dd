@@ -1,0 +1,5 @@
+name: DD Form Checkout
+type: module
+description: 'Met à jour dynamiquement les choix dans la section checkout.'
+package: DD
+core_version_requirement: ^9.0 || ^10
